@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/img/girluser.png">
+    <meta name="author" content="Fatma Mustafa">
+    <meta name="keywords" content="HTML, CSS, JS">
+    <title>Simple Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="gallery">
+        <div class="photos">
+            <img src="images/user (1).png" alt="user1" onclick="main.src = this.src">
+            <img src="images/user (2).png" alt="user2" onclick="main.src = this.src">
+            <img src="images/user (3).png" alt="user3" onclick="main.src = this.src">
+            <img src="images/user (4).png" alt="user4" onclick="main.src = this.src">
+        </div>
+        <br>
+        <div class="main">
+            <img src="images/user (1).png" alt="user1" name="main">
+        </div>
+        <br>
+        <div class="photos">
+            <img src="images/user (1).png" alt="user1" onmouseenter="main.src = this.src">
+            <img src="images/user (2).png" alt="user2" onmouseenter="main.src = this.src">
+            <img src="images/user (3).png" alt="user3" onmouseenter="main.src = this.src">
+            <img src="images/user (4).png" alt="user4" onmouseenter="main.src = this.src">
+        </div>
+    </div>
+</body>
+
+</html>

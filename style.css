@@ -1,0 +1,13 @@
+.photos img {
+    width: 150px;
+    border: 2px solid black;
+}
+
+.photos img:hover {
+    cursor: pointer;
+}
+
+.main img {
+    width: 625px;
+    border: 2px solid black;
+}
